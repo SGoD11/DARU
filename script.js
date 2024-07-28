@@ -18,7 +18,7 @@ updateTime();
 
 
 //for the no button
-const noButton = document.getElementById('no');
+const noButton = document.getElementById('noLast');
 const buttonContainer = document.querySelector('.button-container');
 
 function moveButton() {
@@ -40,3 +40,12 @@ function moveButton() {
 
 noButton.addEventListener('mouseover', moveButton);
 noButton.addEventListener('touchstart', moveButton);
+
+const yesButton = document.getElementById('yes');
+yesButton.addEventListener('click', () => {
+    window.location.href = '/html/last.html';
+});
+
+function yes(){
+    window.location.href = '/html/last.html';
+}

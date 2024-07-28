@@ -10,9 +10,7 @@ body{
 main{
     height: 90vh;
     width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
 }
 footer{
     height: 10vh;
@@ -31,13 +29,23 @@ footer{
 
 }
 
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
 /* for no button  */
 .button-container {
     display: flex;
     gap: 20px;
     position: relative;
-    width: 300px;
-    height: 100px;
+    align-items: center;
+    justify-content: center;
 }
 .button {
     padding: 10px 20px;
@@ -47,5 +55,5 @@ footer{
     border-radius: 5px;
     background-color: #007bff;
     color: white;
-    position: absolute;
+    /* position: absolute; */
 }
