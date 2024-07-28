@@ -1,0 +1,51 @@
+*{
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;   
+}
+main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    color: rebeccapurple;
+    font: bolder;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* for no button  */
+.button-container {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    width: 300px;
+    height: 100px;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    position: absolute;
+}
