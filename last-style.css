@@ -1,0 +1,70 @@
+* {
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 90vh;
+    width: 100vw;
+}
+
+footer {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#time {
+    color: rebeccapurple;
+    font: bolder;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.last-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.last-button-container {
+    position: relative;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Ensures space between buttons */
+}
+
+.last-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    position: absolute;
+    transition: all 0.3s ease;
+    z-index: 1; /* Ensures proper stacking order */
+}
+
+.last-button a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}

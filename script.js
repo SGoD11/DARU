@@ -16,4 +16,3 @@ setInterval(updateTime, 1000);
 // Initialize the time display
 updateTime();
 
-//no button movement
