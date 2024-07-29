@@ -9,6 +9,7 @@ body{
 }
 header{
     text-align: center;
+    margin-top: 1px;
 }
 main{
     height: 90vh;
@@ -53,6 +54,8 @@ h2{
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  color: red;
+  text-shadow: 1px 1px 4px purple;
 }
 
 #time{
@@ -130,10 +133,32 @@ a{
 .kalnia-glaze-colorFont {
     font-family: "Kalnia Glaze", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 300;
     font-style: normal;
     text-shadow: 1px 1px 5px purple;
     font-variation-settings:
       "wdth" 700;
      
   }
+
+/* for transition of the image */
+.transition-image {
+    width: 300px; /* Initial width */
+    height: 300px; /* Adjust height automatically */
+    transition: transform 1s ease; /* Transition effect */
+}
+
+.transition-image:hover {
+    transform: scale(1.1); /* Scale the image to 110% */
+}
+
+.fade-in-image {
+    opacity: 0; /* Initially transparent */
+    animation: fadeIn 2s ease-in forwards; /* Apply the fadeIn animation */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fade to fully visible */
+    }
+}
