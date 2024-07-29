@@ -85,3 +85,9 @@ footer{
     color: white;
     position: absolute;
 }
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
