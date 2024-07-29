@@ -45,17 +45,17 @@ noButton.addEventListener('touchstart', moveButton);
 
 
 function yes(){
-    window.location.href = './html/yes.html';
+    window.location.href = '/yes.html';
 }
 
 function page2(){
-    window.location.href = './html/page2.html';
+    window.location.href = '/page2.html';
 }
 
 function page3(){
-    window.location.href = './html/page3.html';
+    window.location.href = '/page3.html';
 }
 
 function last(){
-    window.location.href = './html/last.html';
+    window.location.href = '/last.html';
 }
