@@ -14,6 +14,10 @@ main {
     width: 100vw;
 }
 
+h2{
+    font-family: monospace;
+}
+
 footer {
     height: 10vh;
     width: 100vw;

@@ -20,6 +20,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
+h2{
+    font-family: monospace;
+}
 
 #time{
     color: rebeccapurple;
@@ -91,3 +94,15 @@ a{
     background-color: transparent;
     color: white;
 }
+
+ /* custom fonts  */
+.kalnia-glaze-colorFont {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 1px 5px purple;
+    font-variation-settings:
+      "wdth" 700;
+     
+  }
