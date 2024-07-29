@@ -143,8 +143,8 @@ a{
 
 /* for transition of the image */
 .transition-image {
-    width: 300px; /* Initial width */
-    height: 300px; /* Adjust height automatically */
+    width: 400px; /* Initial width */
+    height: auto; /* Adjust height automatically */
     transition: transform 1s ease; /* Transition effect */
 }
 
